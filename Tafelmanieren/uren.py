@@ -1,5 +1,5 @@
-for uur in range(0,24):
-    if uur <= 11:
+for uur in range(1,24):
+    if uur <= 12:
         print(uur, 'AM')
-    if uur >= 12:
+    if uur >= 13:
         print(uur, 'PM')
